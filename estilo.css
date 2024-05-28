@@ -1,0 +1,41 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, p, .botao {
+    text-align: center;
+    margin: 10px;
+}
+
+.botao {
+    max-width: 786px;
+    background-color:#8dadc5 ;
+    margin: 15px auto;
+    display: block;
+    color: whitesmoke;
+    text-decoration:none;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    .botao {
+        font-size: 16px;
+    }
+}
